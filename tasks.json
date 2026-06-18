@@ -1,0 +1,17 @@
+[
+    {
+        "task": "Buy Milk",
+        "status": false,
+        "priority": "Low"
+    },
+    {
+        "task": "Do Homework",
+        "status": true,
+        "priority": null
+    },
+    {
+        "task": "Python Session",
+        "status": false,
+        "priority": null
+    }
+]
