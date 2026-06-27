@@ -101,8 +101,8 @@ class TodoApp:
                     self.tasks[idx]['priority'] = "Medium"
                 elif priority == 3:
                     self.tasks[idx]['priority'] = "Low"
-            else:
-                print("Please enter 1, 2 or 3 to set the priority")
+                else:
+                    print("Please enter 1, 2 or 3 to set the priority")
         except ValueError:
             print("Only numbers please!")
 
