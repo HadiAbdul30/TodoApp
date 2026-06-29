@@ -14,14 +14,11 @@ class TodoApp:
     
     def add_task(self, task_name):
         if not task_name:
-            print("You can't add empty task!")
-            return
+            return None
     
         if any(task['task'].lower() == task_name.lower() for task in self.tasks):
-            print("\nYou already have added this task!")
             return
         self.tasks.append({"task": task_name, "status": False, 'priority': None})
-        print("\nTask has been added successfully!")
 
     def view_tasks(self):
         if not self.has_task():
